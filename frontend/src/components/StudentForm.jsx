@@ -36,7 +36,7 @@ function StudentForm() {
         e.preventDefault();
 
         try {
-            const res = await fetch("http://localhost:5001/api/students", {
+            const res = await fetch("https://full-stack-application-2-pudc.onrender.com/api/students", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
